@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cédric Christian NKOU ATEBA</title>
+</head>
+<body>
+
+    <script>
+        
+            // Ecrire un programme JavaScript pour obtenir la date actuelle
+            // Write a program to get the current date
+         
+        var today = new Date();
+        var aujourdhui = new Date(); 
+        var dd = today.getDate(); 
+        var mm = today.getMonth()+1; 
+        var yyyy = today.getFullYear(); 
+
+        if(dd<10) {
+            dd='0'+dd; 
+        }
+
+        if(mm<10){
+            mm='0'+mm; 
+        }
+  
+        today = mm+'/'+dd+'/'+yyyy;
+        aujourdhui = dd+'/'+mm+'/'+yyyy;
+        alert("The date of today is : " + "" + today +
+            "\n La date du jour est : " + "" + aujourdhui);
+          
+    </script>
+    
+</body>
+</html>
